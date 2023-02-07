@@ -18,7 +18,12 @@
 
 .cardDetalles {
   width: fit-content;
+  height: 500px;
 }
 .imgTamanoDetails{
   width: 1000px;
 } 
+
+.colorTextoDetalle{
+  color: black;
+}

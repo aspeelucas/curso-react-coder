@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export const Item = ({ item }) => {
   return (
     <div className="card text-center anchoCards " style={{ width: "20rem" }}>
@@ -7,7 +8,7 @@ export const Item = ({ item }) => {
         <p className="card-text">{item.marca}</p>
         <p className="card-text">$ {new Intl.NumberFormat('de-DE').format (item.precio)}</p>
         <p className="card-text"></p>
-        <button className="btn btn-dark mb-5">Ver Producto</button>
+        <button className="btn btn-dark mb-5"><Link className="nav-link" to={`/item/${item.id}`}>Ver Producto</Link></button>
       </div>
     </div>
   );
