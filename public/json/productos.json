@@ -1,0 +1,96 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 1,
+        "nombre": "Iphone 14 Pro",
+        "marca": "Apple",
+        "modelo": "Y510P",
+        "precio": 60000,
+        "stock": 30,
+        "img": "iphone14pro.png"
+    },
+    {
+        "id": 2,
+        "idCategoria": 2,
+        "nombre": "Iphone 13",
+        "marca": "Apple",
+        "modelo": "Mi-9",
+        "precio": 35000,
+        "stock": 20,
+        "img": "iphone14.png"
+    },
+    {
+        "id": 3,
+        "idCategoria": 3,
+        "nombre": "Iphone 12",
+        "marca": "Apple",
+        "modelo": "50D1U",
+        "precio": 57000,
+        "stock": 15,
+        "img": "iphone13mini.png"
+    },
+   
+    {
+        "id": 5,
+        "idCategoria": 4,
+        "nombre": "Moto Go",
+        "marca": "Motorolla",
+        "modelo": "G502",
+        "precio": 1400,
+        "stock": 7,
+        "img": "motogochodos.png"
+    },
+    {
+        "id": 6,
+        "idCategoria": 4,
+        "nombre": "Motorola G2",
+        "marca": "Motorola",
+        "modelo": "Pulse",
+        "precio": 4000,
+        "stock": 20,
+        "img": "motorola-dos.png"
+    },
+    {
+        "id": 7,
+        "idCategoria": 2,
+        "nombre": "Moto G Pro",
+        "marca": "Motorola",
+        "modelo": "Iphone X Silver",
+        "precio": 250000,
+        "stock": 10,
+        "img": "motorola.png"
+    },
+   
+   
+    {
+        "id": 10,
+        "idCategoria": 1,
+        "nombre": "S20 FE",
+        "marca": "Samsung",
+        "modelo": "M1 2020",
+        "precio": 13000,
+        "stock": 25,
+        "img": "s21fe.png"
+    },
+    {
+        "id": 11,
+        "idCategoria": 2,
+        "nombre": "S22",
+        "marca": "Samsung",
+        "modelo": "S20",
+        "precio": 85000,
+        "stock": 30,
+        "img": "s22.png"
+    },
+    {
+        "id": 12,
+        "idCategoria": 1,
+        "nombre": "S22 +",
+        "marca": "Samsung",
+        "modelo": "Pavilion 15",
+        "precio": 120000,
+        "stock": 20,
+        "img": "s22plus.png"
+    }
+
+]

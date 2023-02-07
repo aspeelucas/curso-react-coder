@@ -1,7 +1,8 @@
 
 import './App.css';
 import Navbar from './Navbar/Navbar.';
-import ItemListCointeiner from './ItemListConteiner/ItemListCointeiner';
+import { ItemListContainer } from './ItemListConteiner/ItemListCointeiner';
+import { ItemDetailCointeiner } from './ItemDetailCointeiner/ItemDetailCointeiner';
 
 
 
@@ -9,7 +10,8 @@ function App() {
   return (
    <>
      <Navbar/>
-     <ItemListCointeiner catalogoProductos={`HOLA AQUI VA EL CATALOGO DE PRODUCTOS`}/>
+     <ItemListContainer/>
+     <ItemDetailCointeiner/>
    </>
   );
 };

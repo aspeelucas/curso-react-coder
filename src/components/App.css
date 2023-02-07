@@ -1,2 +1,24 @@
+.gapCards{
+    gap: 200px;
+  }
 
+.anchoCards{
+    height: 580px;
+    padding-left: 0;
+    padding-right: 0;
+}
 
+.itemDetailTamano{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(241, 241, 235);
+  border-color: white;
+}
+
+.cardDetalles {
+  width: fit-content;
+}
+.imgTamanoDetails{
+  width: 1000px;
+} 
