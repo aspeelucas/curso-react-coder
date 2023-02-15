@@ -12,7 +12,7 @@ export const ItemDetailCointeiner = () => {
             const item = products.find(prod=> prod.id === parseInt(id))
             setProducto(item)
         })
-    }, [])
+    }, [id])
     return (
       <div className='card mb-3 itemDetailTamano d-flex justify-content-center align-items-center'>
             <ItemDetail item = {producto}/>
