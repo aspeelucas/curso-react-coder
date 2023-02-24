@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import { toast } from "react-toastify";
 
 export const Contacto = () => {
 const datosForm = React.useRef();
@@ -9,8 +9,8 @@ const consultarForm = (e) =>{
 e.preventDefault()
 const datForm = new FormData(datosForm.current)
 const contacto = Object.fromEntries(datForm)
-console.log(contacto)
 e.target.reset()
+toast.success("Su respuesta se envio correctamente")
 navigate("/")
 };
 

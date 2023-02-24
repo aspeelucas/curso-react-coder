@@ -1,6 +1,10 @@
 import ItemCount from "../ItemCount/ItemCount";
 
 export const ItemDetail = ({item}) => {
+
+    const onAdd = (cantidad) =>{
+        console.log(cantidad)
+    }        
     return (
         <div className="row cardDetalles text-center p-0">
             <div className="col-md-4 d-flex justify-content-center align-items-center">
@@ -14,7 +18,7 @@ export const ItemDetail = ({item}) => {
                     <p className="card-text">Precio $ {new Intl.NumberFormat('de-DE').format (item.precio)}</p>
                     <p className="card-text">Stock : {item.stock}</p>
                     <div className="d-flex justify-content-center align-items-center gap-3 mt-5">
-                    <ItemCount  valInicial={1} stock={item.stock}/>
+                    <ItemCount  valInicial={1} stock={item.stock} onAdd={onAdd}/>
                     <button className="btn btn-secondary">Finalizar Compra</button>
                     </div>
                 </div>

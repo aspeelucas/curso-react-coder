@@ -27,3 +27,25 @@
 .colorTextoDetalle{
   color: black;
 }
+/* DARKMODE */
+.darkMode{
+  background-color: black;
+  color: rgb(255, 252, 247);
+}
+
+.botonCards{
+  background-color: rgb(218, 204, 204);
+}
+.botonCardDarkMode{
+  background-color: rgb(66, 62, 62);
+}
+.textoCardDarkMode{
+  color: rgb(218, 211, 211);
+}
+.textoBotonCard{
+ color: rgb(28, 28, 29);
+}
+
+.cardBodyDark{
+  background-color: black;
+}

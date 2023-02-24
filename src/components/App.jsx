@@ -1,17 +1,23 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import './App.css';
+// toastify
+import 'react-toastify/dist/ReactToastify.css'
+import { ToastContainer } from 'react-toastify';
+// components
 import Navbar from './Navbar/Navbar.';
 import { ItemListContainer } from './ItemListConteiner/ItemListCointeiner';
 import { ItemDetailCointeiner } from './ItemDetailCointeiner/ItemDetailCointeiner';
 import { Contacto } from './Contacto/Contacto';
-
+// context
+import { DarkModeProvider } from '../context/DarkModeContext';
 
 
 function App() {
   return (
    <>
     <BrowserRouter>
+    <DarkModeProvider>
      <Navbar/>
      <Routes>
       <Route path='/' element={<ItemListContainer/>}/>
@@ -19,6 +25,8 @@ function App() {
       <Route path='/category/:idCategoria' element={<ItemListContainer/>}/> 
       <Route path='/contacto' element={<Contacto/>}/>     
      </Routes>
+     <ToastContainer/>
+     </DarkModeProvider>
     </BrowserRouter>
    </>
   );
