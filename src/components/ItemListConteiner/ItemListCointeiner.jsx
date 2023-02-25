@@ -15,22 +15,22 @@ export const ItemListContainer = () => {
         .then(response => response.json())
         .then(items => {
             const products = items.filter(prod=> prod.idCategoria === idCategoria )
-            const productsList = ItemList({products}) 
+            const productsList = <ItemList products={products} plantilla={'item'}/>
             setProductos(productsList)
         })
         } else{
             fetch('./json/productos.json')
             .then(response => response.json())
             .then(products => {
-                const productsList = ItemList({products}) 
+                const productsList = <ItemList products={products} plantilla={'item'}/>
                 setProductos(productsList)
             })
         }
 
     }, [idCategoria])
     return (
-      <div className='d-flex justify-content-center align-items-center'>
-         <div className='row  col-12 col-md-9 mb-5 mt-5 d-flex justify-content-center align-items-center  gapCards'>
+      <div className='container-fluid d-flex justify-content-center catalogoProductos align-items-center'>
+         <div className='row p-0  col-xl-10 catalogoProductos  mt-5 d-flex justify-content-center align-items-center  gapCards'>
             {productos}
           </div>
        </div>

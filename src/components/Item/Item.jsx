@@ -3,7 +3,7 @@ import { useDarkModeContext } from "../../context/DarkModeContext";
 export const Item = ({ item }) => {
   const {darkMode} = useDarkModeContext()
   return (
-    <div className="card text-center anchoCards " style={{ width: "20rem" }}>
+    <div className="card text-center anchoCards  " >
       <img src={`../img/${item.img}`} className="card-img-top" alt={`Imagen de ${item.nombre}`} />
       <div className="card-body text-white">
         <h5 className="card-title">{item.nombre}</h5>
