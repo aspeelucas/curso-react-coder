@@ -7,7 +7,7 @@
         "modelo": "Iphone 14 Pro",
         "precio": 60000,
         "stock": 30,
-        "img": "iphone14pro.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse-6ab95.appspot.com/o/iphone14pro.png?alt=media&token=7c6dec98-72db-4b4b-b0ee-fe091bc45c93"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "modelo": "Iphone 13",
         "precio": 35000,
         "stock": 20,
-        "img": "iphone14.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse-6ab95.appspot.com/o/iphone14.png?alt=media&token=4c7d4bce-692d-452c-997a-d77722a0bebe"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "modelo": "Iphone 12",
         "precio": 57000,
         "stock": 15,
-        "img": "iphone13mini.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse-6ab95.appspot.com/o/iphone13mini.png?alt=media&token=b0e043aa-19ef-4a4f-a2c3-ecaf4d6e0915"
     },
    
     {
@@ -38,7 +38,7 @@
         "modelo": "Moto Go",
         "precio": 1400,
         "stock": 7,
-        "img": "motogochodos.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse-6ab95.appspot.com/o/motogochodos.png?alt=media&token=ef27a68f-30e2-4fa8-b04d-76ec5c6fe77b"
     },
     {
         "id": 5,
@@ -48,7 +48,7 @@
         "modelo": "Motorola G2",
         "precio": 4000,
         "stock": 20,
-        "img": "motorola-dos.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse-6ab95.appspot.com/o/motorola-dos.png?alt=media&token=18e9a8e4-a88b-4db7-9c47-84f7250f2723"
     },
     {
         "id": 6,
@@ -58,19 +58,19 @@
         "modelo": "Moto G Pro",
         "precio": 250000,
         "stock": 10,
-        "img": "motorola.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse-6ab95.appspot.com/o/motorola.png?alt=media&token=2af4d6cd-8b74-470d-9bff-9a8f20192e57"
     },
    
    
     {
         "id": 7,
         "idCategoria": "samsung",
-        "nombre": "S20 FE",
+        "nombre": "S22 Ultra",
         "marca": "Samsung",
-        "modelo": "S20 FE",
+        "modelo": "S22 Ultra",
         "precio": 13000,
         "stock": 25,
-        "img": "s21fe.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse-6ab95.appspot.com/o/s22ultra.png?alt=media&token=a236f09f-6546-41fb-9b62-9f845c4dc0e6"
     },
     {
         "id": 8,
@@ -80,7 +80,7 @@
         "modelo": "S22",
         "precio": 85000,
         "stock": 30,
-        "img": "s22.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse-6ab95.appspot.com/o/s22.png?alt=media&token=34bb8609-30c5-4772-bdb2-b1d5343304dc"
     },
     {
         "id": 9,
@@ -90,7 +90,7 @@
         "modelo": "S22 +",
         "precio": 120000,
         "stock": 20,
-        "img": "s22plus.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse-6ab95.appspot.com/o/s22plus.png?alt=media&token=25636335-6051-4eae-8268-2903cc26d36d"
     }
 
 ]

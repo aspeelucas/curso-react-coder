@@ -9,7 +9,7 @@ export const ItemDetail = ({item}) => {
     
         <div className={`row cardDetalles text-center  ${darkMode ?'verProduDark' : 'verProduWhite' }`}>
             <div className="col-md-4  d-flex justify-content-center align-items-center">
-                <img src={`../img/${item.img}`} className="img-fluid rounded-start imgTamanoDetails" alt={`Imagen de ${item.imagen}`} />
+                <img src= {item.img} className="img-fluid rounded-start imgTamanoDetails" alt={`Imagen de ${item.imagen}`} />
             </div>
             <div className="col-md-8 p-0 d-flex justify-content-center align-items-center">
                 <div className={`card-body  ${darkMode ? 'textoDarkMode' :'colorTextoDetalle'}`}>
