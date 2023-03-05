@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import { toast } from "react-toastify";
 import { useDarkModeContext } from "../../context/DarkModeContext";
@@ -22,6 +22,7 @@ const ItemCount = ({valInicial, stock,onAdd}) => {
               {contador}
             <button className="btn btn-dark" onClick={ () =>restarContador() }>-</button>
             <button className={`btn ${darkMode ? 'btn-secondary' : ' btn-light'}`} onClick={()=>agregarCarrr()}>Agregar al carrito</button>
+            <Link className="nav-link" to={"/cart"}><button className={`btn ${darkMode ? 'btn-secondary' : ' btn-light'}`}>Ir a Carrito</button></Link>
         </>
     );
 }

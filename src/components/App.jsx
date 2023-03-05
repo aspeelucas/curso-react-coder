@@ -12,9 +12,12 @@ import { ItemListContainer } from './ItemListConteiner/ItemListCointeiner';
 import { ItemDetailCointeiner } from './ItemDetailCointeiner/ItemDetailCointeiner';
 import { Contacto } from './Contacto/Contacto';
 import { Cart } from './Cart/Cart';
+import { Checkout } from './Checkout/Checkout';
+import { Footer } from './Footer/Footer';
 // context
 import { DarkModeProvider } from '../context/DarkModeContext';
 import { CarritoProvider } from '../context/CarritoContext';
+
 
 
 
@@ -28,12 +31,14 @@ function App() {
     <DarkModeProvider>
      <Navbar/>
      <Routes>
-      <Route path='/' element={<ItemListContainer/>}/>
+     <Route path='/' element={<ItemListContainer/>}/>
       <Route path='/item/:id' element={<ItemDetailCointeiner/>}/>
       <Route path='/category/:idCategoria' element={<ItemListContainer/>}/> 
       <Route path='/contacto' element={<Contacto/>}/>
-      <Route path='/cart' element ={<Cart/>}/>   
+      <Route path='/cart' element ={<Cart/>}/>
+      <Route path='/checkout' element ={<Checkout/>}/>      
      </Routes>
+     <Footer/>
      <ToastContainer/>
      </DarkModeProvider>
      </CarritoProvider> 

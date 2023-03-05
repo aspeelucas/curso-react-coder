@@ -14,7 +14,7 @@ export const ItemDetailCointeiner = () => {
         })
     }, [id])
     return (
-      <div className='card mb-3 itemDetailTamano d-flex justify-content-center align-items-center'>
+      <div className='card  itemDetailTamano d-flex justify-content-center align-items-center'>
             <ItemDetail item = {producto}/>
        </div>
     )

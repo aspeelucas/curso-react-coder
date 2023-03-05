@@ -15,8 +15,13 @@ navigate("/")
 };
 
   return (
-    <div className="conteiner">
-      <form onSubmit={consultarForm} ref={datosForm}>
+    <>
+    <div className="contenedorConsulta">
+    <div className="conteiner formularioConsulta">
+      <form onSubmit={consultarForm} className="textoFormularioConsulta" ref={datosForm}>
+      <div className="text-center">
+              <h5 className="tituloFormCompras">Envianos tu consulta</h5>
+            </div>
         <div className="mb-3">
           <label htmlFor="nombre" className="form-label">
             Nombre y Apellido
@@ -46,10 +51,14 @@ navigate("/")
             defaultValue={""}
           />
         </div>
-        <button type="submit" className="btn btn-primary">
+        <div className="botonSubmitConsulta">
+        <button type="submit" className="btn btn-primary botonConsulta">
           Enviar
         </button>
+        </div>
       </form>
     </div>
+    </div>
+    </>
   );
 };

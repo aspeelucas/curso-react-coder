@@ -1,12 +1,73 @@
+/* Fonts generales */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Poppins&family=Roboto&display=swap');
+
+/* navbaredit */
+*{
+  --bs-dropdown-link-hover-bg: white;
+  --bs-dropdown-link-hover-color: black;
+}
+.anchoNav{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tiendaCelu{
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+
+}
+.anchoIconCart{
+  font-size: 25px;
+  margin-bottom: 2px;
+}
+.cantidadCarrito{
+  font-size: 20px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+.radiusContador{
+  background-color: red;
+  border-radius: 100px;
+  width: 30px;
+}
+.textoNav{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: rgb(233, 229, 229);
+}
+
+
+
+/* navbaredit fin */
+/* cards */
 .gapCards{
     gap: 200px;
+    text-align: center;
+  }
+  .textoCards{
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  .tituloCard{
+    color: black;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
   }
 
 .anchoCards{
-    height: 580px;
+    height: 520px;
     padding-left: 0;
     padding-right: 0;
     width: 20rem;
+    background-color: rgb(241, 242, 243);
+    border: none;
+    border-radius: 30px;
 }
 
 .itemDetailTamano{
@@ -15,29 +76,191 @@
   align-items: center;
   background-color: rgb(241, 241, 235);
   border: none;
+  
 }
 
 .cardDetalles {
   width: 100%;
-  height: 1000px;
-  margin-top: 0px;
-  padding: 0px;
+  height:100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.anchoCarouselDetails{
+  width: 30%;
+  margin-left: 40px;
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 .imgTamanoDetails{
   width: 500px;
 } 
+.contenedorBannerPadre{
+  height: 325px;
+  width: 100%;
+  
+}
+.bannerDetails{
+  width: 100%;
+  height:auto;
+  
+  
+}
 
 .colorTextoDetalle{
   color: black;
 }
+.textoH5DetailsWhite{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.textDetailsFont{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.tituloCarritoFinalizar{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: black;
+}
+.tituloCarritoFinalizarDark{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: rgb(218, 213, 213);
+}
+.textDetailCart{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+.textDetailCartDark{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(218, 213, 213);
+}
+.resumenCompra{
+  margin-right: 20px;
+  color: black;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+/* FormularioCompra */
+.formularioCompra{
+  background-color: rgb(46, 44, 44);
+  margin-top: 100px;
+  margin-bottom: 320px;
+  border-radius: 20px;
+  width: 30%;
+}
+.tituloFormCompras{
+  padding-top: 20px;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.textoFormulario{
+  color: rgb(19, 214, 214);
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.botonesTerminarCompra{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+.botonTerminarCompra{
+  margin-bottom: 50px;
+  margin-top: 20px;
+  background-color: rgb(18, 106, 128);
+  border: none;
+}
+.tarjetasCredito{
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  justify-content: space-around;
+}
+/* formulario Consulta */
+.formularioConsulta{
+  background-color: rgb(3, 3, 3);
+  margin-top: 200px;
+  margin-bottom: 400px;
+  border-radius: 20px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textoFormularioConsulta{
+  color: rgb(19, 214, 214);
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 10px;
+  background: #000;
+  width: 80%;
+  
+}
+.contenedorConsulta{
+  display: flex;
+  justify-content: center;
+}
+.botonSubmitConsulta{
+  display: flex;
+  justify-content: center;
+}
+.botonConsulta{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background-color: rgb(33, 146, 76);
+  border: none;
+}
+/* fin cards */
 /* DARKMODE */
 .darkMode{
   background-color: black;
   color: rgb(255, 252, 247);
 }
+.darkModeCard{
+  background-color: rgb(37, 35, 35);
+  height: 520px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 20rem;
+  border: none;
+  border-radius: 30px;
+}
+.textoCardsDark{
+  color: rgb(245, 239, 239);
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.tituloCardDark{
+  color: rgb(255, 255, 255);
+  font-size: 29px;
+}
 
 .botonCards{
-  background-color: rgb(218, 204, 204);
+  background-color: rgb(111, 130, 158);
 }
 .botonCardDarkMode{
   background-color: rgb(66, 62, 62);
@@ -47,6 +270,8 @@
 }
 .textoBotonCard{
  color: rgb(28, 28, 29);
+ font-family: 'Poppins', sans-serif;
+ font-weight: 700;
 }
 
 .cardBodyDark{
@@ -64,7 +289,13 @@
 }
 
 .textoDarkMode{
-  color: white;
+  color: white; 
+}
+.textoH5DetailsDark{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 
 /* carrito */
@@ -79,9 +310,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .divButtons button{
   margin: 4px;
+}
+.tituloCarrito{
+  color: black;
+}
+.textoBotones{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 19px
 }
 
 .cardCart{
@@ -90,10 +331,92 @@
  align-items: center;
  justify-content: center;
  width: 60%;
+ background-color: rgb(218, 216, 216);
+ border-radius: 20px;
 }
+.cardCartDark{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  background-color: rgb(34, 33, 33);
+  border-radius: 20px;
+ }
+
 .tamnoInnerCart{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100rem;
+}
+
+/* footer */
+.footerr{
+  height: 500px;
+  background-color: rgb(22, 22, 22);
+  margin-top: 0px;
+}
+.footerInfo{
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  gap: 220px;
+  
+}
+.textFooter{
+  font-size: 22px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+
+}
+.footerInfoBox{
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.footerInfoBoxRedes{
+  margin-top: 20px;
+}
+
+/* header tarjetas */
+.headerTarjetas{
+  display: flex;
+  margin-top: 100px;
+ 
+}
+.headerTarjetas img{
+  width: 100%;
+}
+
+
+/* brakpoint hasta 991px */
+@media screen and (max-width: 991px) {
+
+  .cardDetalles {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    padding: 0px;
+  }
+  .formularioCompra{
+    width: 70%;
+  }
+  .formularioConsulta{
+    width: 80%;
+  }
+
+  .footerInfo{
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    
+  }
+  .footerInfoBox{
+    
+    margin-left: 0px;
+  }
 }
