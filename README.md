@@ -1,14 +1,14 @@
 # Proyecto Final React para CoderHouse 39530
 
 Mi nombre es Lucas Aspee , este es mi proyecto final para el curso de React.
-El proyecto se trata de un e-commerce de celulares creado con React en el cual se puede navegar por diferentes secciones ,ver una catalogo de productos traido de la base de datos , ver detalles de productos , agregar al carrito, vaciar el carrito, ver el carrito y si es deseado rellenar un formulario de compra en donde se validan  los campos del mismo para finalizar la misma y enviar dicha orden de compra a la base de datos. 
+El proyecto se trata de un e-commerce de celulares creado con React en el cual se puede navegar por diferentes secciones ,ver una catalogo de productos traido de la base de datos , ver detalles de productos , agregar al carrito, vaciar el carrito, ver el carrito y si es deseado rellenar un formulario de compra en donde se validan  los campos del mismo para finalizar la misma y enviar dicha orden de compra a la base de datos. Si el stock de un producto se agota el mismo ya no se muestra en el catalogo general.
 
 ## Requerimientos
 
 Para el correcto funcionamiento es necesario instalar las dependencias figuradas en el package.json
 
 ## Modo de ejecucion
-En la consolta escribir el siguiente comando :
+En la consola escribir el siguiente comando :
 ```
 - npm start
 ```
@@ -30,7 +30,7 @@ Muestra de navegabilidad :
 El proyecto se puede probar en:
 
 ```bash
-  
+  https://curso-react-coder-delta.vercel.app/
 ```
 
 
