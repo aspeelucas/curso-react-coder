@@ -299,6 +299,35 @@
 }
 
 /* carrito */
+.carritoEmpty{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.carritoEmpty img{
+ width: 25%;
+}
+
+ .whiteVacio{
+  font-size: 40px;
+  margin-left: 50px;
+  color: black;
+ }
+ .darkVacioo{
+  font-size: 40px;
+  margin-left: 50px;
+  color: rgb(248, 248, 248);
+ }
+
+ .carritoEmpty button{
+ margin-top: 40px;
+ margin-left: 70px;
+ background-color: rgb(66, 66, 66);
+ color: white;
+ border: none;
+ }
 .cartContenedor{
   margin-top: 30px;
   display: flex;
@@ -372,11 +401,23 @@
 
 }
 .footerInfoBox{
-  margin-top: 100px;
+  margin-top: 110px;
   margin-left: 50px;
 }
 .footerInfoBoxRedes{
   margin-top: 20px;
+}
+.boxRedesSociales{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px ;
+  font-size: 40px;
+  margin-top: 20px;
+  color: white;
+}
+.h3Redes{
+  margin-top: 35px;
 }
 
 /* header tarjetas */

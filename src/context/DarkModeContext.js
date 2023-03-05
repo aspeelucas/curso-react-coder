@@ -14,7 +14,6 @@ export const DarkModeProvider = (props) => {
     }
 }
  
-  console.log(darkMode)
   return (
     <DarkModeContext.Provider value={{ darkMode, toggleDarkMode }}>
       {props.children}

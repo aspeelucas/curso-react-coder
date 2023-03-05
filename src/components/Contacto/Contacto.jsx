@@ -26,19 +26,19 @@ navigate("/")
           <label htmlFor="nombre" className="form-label">
             Nombre y Apellido
           </label>
-          <input type="text" className="form-control" name="nombre" />
+          <input type="text" className="form-control" required name="nombre" />
         </div>
         <div className="mb-3">
           <label htmlFor="email" className="form-label">
             Email
           </label>
-          <input type="email" className="form-control" name="email" />
+          <input type="email" className="form-control" required name="email" />
         </div>
         <div className="mb-3">
           <label htmlFor="number" className="form-label">
            Numero Telefonico
           </label>
-          <input type="number" className="form-control" name="number" />
+          <input type="number" className="form-control" required name="number" />
         </div>
         <div className="mb-3">
           <label htmlFor="consulta" className="form-label">

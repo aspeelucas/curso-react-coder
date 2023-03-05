@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
 import { ItemList } from "../ItemList/ItemList"
 import { useCarritoContext } from "../../context/CarritoContext"
+import { useDarkModeContext } from "../../context/DarkModeContext"
 export const Cart = () => {
    const {carrito,totalPrice,emptyCart} = useCarritoContext()
-
+   const {darkMode} = useDarkModeContext()
 
   return (
         <>
@@ -11,8 +12,11 @@ export const Cart = () => {
             {carrito.length=== 0 
             ? 
             <>
-            <h2>Carrito vacio</h2>
+            <div className=" carritoEmpty">
+                <img src="../img/carritoVacio.png" alt="carrito sin items" />
+            <h2 className={`${darkMode ? 'darkVacioo' :"whiteVacio" }`}>Su carrito esta vacio</h2>
            <Link className="nav-link" to={'/'}> <button className="btn btn-dark"> Continuar Comprando</button>  </Link> 
+           </div>
              </>
             : 
 

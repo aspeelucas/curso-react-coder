@@ -5,7 +5,7 @@ import {getFirestore,collection,addDoc,getDoc,getDocs,doc,updateDoc,} from 'fire
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDLo8sicLETbset80PVrIbklAynKvRX6Qg",
+  apiKey: process.env.API_KEY,
   authDomain: "react-coderhouse-6ab95.firebaseapp.com",
   projectId: "react-coderhouse-6ab95",
   storageBucket: "react-coderhouse-6ab95.appspot.com",

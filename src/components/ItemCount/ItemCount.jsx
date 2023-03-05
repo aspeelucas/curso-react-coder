@@ -23,6 +23,7 @@ const ItemCount = ({valInicial, stock,onAdd}) => {
             <button className="btn btn-dark" onClick={ () =>restarContador() }>-</button>
             <button className={`btn ${darkMode ? 'btn-secondary' : ' btn-light'}`} onClick={()=>agregarCarrr()}>Agregar al carrito</button>
             <Link className="nav-link" to={"/cart"}><button className={`btn ${darkMode ? 'btn-secondary' : ' btn-light'}`}>Ir a Carrito</button></Link>
+            <Link className="nav-link" to={'/'} ><button className={`btn ${darkMode ? 'btn-secondary' : ' btn-light'}`}>Voler a Inicio</button></Link>
         </>
     );
 }
